@@ -1,6 +1,6 @@
 def countdown(integer)
   integer = 0
-  while integer < 10
+  while integer < 11
     integer -= 1
     puts "#{integer} seconds"
   end
