@@ -1,9 +1,9 @@
 def countdown(integer)
-  integer = 6
+  integer = 11
   while integer > 1
     integer -= 1
     puts "#{integer} seconds"
-    sleep(1)
+    sleep(0.5)
   end
   puts "HAPPY NEW YEAR!"
 end
