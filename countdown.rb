@@ -3,9 +3,9 @@ def countdown(integer)
   while integer > 0
     integer -= 1
     puts "#{integer} seconds"
+sleep(1)
   end
-  sleep(1)
-  puts "HAPPY NEW YEAR!"
+    puts "HAPPY NEW YEAR!"
 end
 
 def countdown_with_sleep
